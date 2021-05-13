@@ -10,7 +10,7 @@ import java.util.Date;
 @Document
 public class Book {
     @Id
-    private String id;
+    private String _id;
     private String name;
     private Integer number;
     private Double digital;
